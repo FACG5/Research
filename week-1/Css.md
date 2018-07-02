@@ -23,7 +23,7 @@ Mobile-First design strategy allows the mobile site development (the most involv
 
 
 
-#Responsive
+# Responsive
 Designing For The Best Experience For All Users
 Web pages can be viewed using many different devices: desktops, tablets, and phones. Your web page should look good, and be easy to use, regardless of the device.
 What is Responsive Web Design?

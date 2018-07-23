@@ -12,8 +12,9 @@
 
  ## What are require and module.exports?
 
- *  #### module.exports: a way through which we can utilize certain code in other files
-* ####  require: it's used to load modules. which is why its return value is typically assigned to a variable: 
+ *  #### The most important benefit of modularizing is that Modularized code is easy to understand.
+
+ * #### By modularizing code, you can make the code reusable and you can replace parts of it easily witout affecting other parts of the code.
 ```
 var misc = require('./misc');
 ```

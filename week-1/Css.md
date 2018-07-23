@@ -23,7 +23,21 @@ Mobile-First design strategy allows the mobile site development (the most involv
 
 ***
 
-
+# Responsive
+Designing For The Best Experience For All Users
+Web pages can be viewed using many different devices: desktops, tablets, and phones. Your web page should look good, and be easy to use, regardless of the device.
+What is Responsive Web Design?
+Responsive web design makes your web page look good on all devices.
+Responsive web design uses only HTML and CSS.
+Responsive web design is not a program or a JavaScript.
+Why  Responsive Web Design?
+Before tablets and mobile phones, web pages were designed only for computer screens, and it was common for web pages to have a static design and a fixed size.
+Then, when we started surfing the internet using tablets and mobile phones, fixed size web pages were too large to fit the viewport. To fix this, browsers on those devices scaled down the entire web page to fit the screen.
+This was not perfect!! But a quick fix.
+Benefits of Responsive Web Design
+1. More Mobile Traffic
+2. Faster Mobile Development at Lower Costs
+3. Lower Maintenance Needs
 
 
 
@@ -70,3 +84,9 @@ If all three are used in a name it would look something like this
 
 ```
 In this CSS methodology a **block** is a top-level abstraction of a new component, for example a button: `.btn { }`. This block should be thought of as a parent. Child items, or **elements**, can be placed inside and these are denoted by two underscores following the name of the block like `.btn__price { }`. Finally, **modifiers** can manipulate the block so that we can theme or style that particular component without inflicting changes on a completely unrelated module. This is done by appending two hyphens to the name of the block just like `btn--orange`.
+
+# Why should we consider BEM?
+
+1. If we want to make a new style of a component, we can easily see which modifiers and children already exist. We might even realize we don't need to write any CSS in the first place because there is a pre-existing modifier that does what we need.
+2. If we are reading the markup instead of CSS, we should be able to quickly get an idea of which element depends on another (in the previous example we can see that .btn__price depends on .btn, even if we don't know what that does just yet.)
+3. Designers and developers can consistently name components for easier communication between team members. In other words, BEM gives everyone on a project a declarative syntax that they can share so that they're on the same page.

@@ -94,12 +94,15 @@ export MY_KEY = '4638dc94ad7887e67dc768fd6a6c909c'
 ````
 #### Install ```env2``` from ```npm```
 ```shell
-npm install env2 --save
+npm i env2 -D
 ```
 #### Use in your Code
 Then in your script/module:
 
+```javascript
 const env = require('env2')('./path-to-your/.env');
+```
+
 then use  
 ```use process.env.MY_KEY```
 then add thiskey in ```heroku.com``` 

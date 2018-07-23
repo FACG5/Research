@@ -120,13 +120,14 @@ Non-global libraries are installed the node_modules sub folder in the folder you
 You can run **npm list** to see the installed non-global libraries for your current location.
 
 
-##Why is it important to make sure that installed packages aren't included in your repositories?##
+## Why is it important to make sure that installed packages aren't included in your repositories?
+
 This is a good time to mention that you want to keep your node_modules folder off Github.
 There can be hundreds of thousands of files in this directory, which can make for some ugly commits.
 It can also take up a huge amount of space on something like Github as this folder can easily exceed 100MB for applications with lots of dependencies.
 
 
-##How do you prevent Git from including these files in your repository?##
+## How do you prevent Git from including these files in your repository?
 
 
 A .gitignore file is a way to tell Git to leave certain things alone.

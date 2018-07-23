@@ -1,0 +1,58 @@
+#Dependencies:#
+
+ ##What is a dependency?##
+
+
+ ##Why might you want to use a dependency in your project, rather than writing the code from scratch?##
+
+
+
+ ##What have traditionally been some of the issues with managing dependencies?##
+
+
+
+ #NPM:#
+
+
+  ##What is a package manager?##
+  ## How does it help with dependencies? What is package.json, and what does npm init do?##
+  ## How do you use an installed package in your code?##
+
+ #npm install:#
+
+##What is the difference between installing a package globally, installing it as a dependency, or installing it as a development dependency?##
+##When would you use each? How would you do each in the command line?##
+ ##Why is it normally a bad idea to install a package globally?##
+
+
+
+##Where does NPM install packages?##
+
+**Global libraries**
+You can run npm list -g to see where global libraries are installed.
+
+On Unix systems they are normally placed in /usr/local/lib/node or /usr/local/lib/node_modules when installed globally. If you set the NODE_PATH environment variable to this path, the modules can be found by node.
+
+Windows XP - %USERPROFILE%\Application Data\npm\node_modules
+Windows 7, 8 and 10 - %AppData%\npm\node_modules
+
+**Non-global libraries**
+Non-global libraries are installed the node_modules sub folder in the folder you are currently in.
+
+You can run npm list to see the installed non-global libraries for your current location.
+
+
+ ##Why is it important to make sure that installed packages aren't included in your repositories?##
+This is a good time to mention that you want to keep your node_modules folder off Github.
+There can be hundreds of thousands of files in this directory, which can make for some ugly commits.
+It can also take up a huge amount of space on something like Github as this folder can easily exceed 100MB for applications with lots of dependencies.
+
+
+##How do you prevent Git from including these files in your repository?##
+
+
+A .gitignore file is a way to tell Git to leave certain things alone.
+
+If you are creating a repository on Github then you can use the 'Add .gitignore file' dropdown to automatically generate a variety of .gitignore files for different kinds of projects. You'll want to choose 'Node' here.
+
+If you're working locally you can create a file called .gitignore at the root of your project and add node_modules.

@@ -8,38 +8,38 @@ Website scripts run in one of two places:
 
  Most web coding languages are designed to run on either the server side or the client side. This largely defines how they work. Here are some examples.
 
- In General: 
+### In General: 
 
  1. Front-end scripting is good for anything that requires user interaction, such as a simple game.
 
  2.  Back-end scripting is good for anything that requires dynamic data to be loaded, such as a notice  that tells the user they’re logged in.
 
- hint: To write your own front-end and back-end scripts, you should learn web development.
+ ### hint: To write your own front-end and back-end scripts, you should learn web development.
 
-Front-end/ client-side
+### Front-end/ client-side
 
 The front-end, or the client-side, is everything involved with the browser and relates to what the user sees. It only uses HTML, CSS and JS.
 
-UX/ UI
-Input fields
-Imagery
-Buttons
-Animations/ transitions
+* UX/ UI
+* Input fields
+* Imagery
+* Buttons
+* Animations/ transitions
 
-Back-end/ server-side
+### Back-end/ server-side
 
 The backend is mostly worried about things like security, structure and content management.
 
-Some uses of the back-end include:
+### Some uses of the back-end include:
 
-Database creation, integration, and management
-Content management system (CMS) development
-API integration
-Security settings and hack prevents
-Collecting analytics and statistics e.g. system reports of server load, number of visitors, geography of visitors, etc.
-Backup and restore technologies for website’s files and DB.
+* Database creation, integration, and management
+* Content management system (CMS) development
+* API integration
+* Security settings and hack prevents
+* Collecting analytics and statistics e.g. system reports of server load, number of visitors, geography of visitors, etc.
+* Backup and restore technologies for website’s files and DB.
 
-How the back-end and front-end works together
+## How the back-end and front-end works together?
 The web application creates, deletes, changes, renames, etc items in the database. For example, when a customer purchases a ticket, that creates an item in the database, but when they have a change in their order or they wish to cancel, the item in the database is changed.
 
 A server, in the simplest form, is a computer accessed remotely that runs software to fulfill requests from clients. In our example, the server the customer’s browser is communicating with is where the database is stored and modified.

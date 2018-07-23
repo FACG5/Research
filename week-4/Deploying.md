@@ -26,6 +26,8 @@ Software developers, web developers can all benefit from PaaS:
 
 **Web developers** can use individual PaaS environments at every stage of the process to develop, test and host their websites
 
+**Businesses** can develop their own internal software, particularly to create distinct ring-fenced development and testing environment
+
 ---
 ## What services are there that can provide you with a platform for your code?
 Alpha7 **-** Amazon Web Services **-** AppScale **-** Box **-** Bluemix **-** Cloud Foundry **-** Cocaine (PaaS) **-** Engine Yard  **-** Helion **-** GE Predix **-** Google App Engine **-** GreenQloud **-** Heroku **-** Inktank **-** Jelastic **-** Mendix **-** Microsoft Azure **-** MindSphere **-** Oracle Cloud **-** OutSystems **-** openQRM **-** OpenShift **-** PythonAnywhere **-** RightScale **-** Force.com **-** SAP Cloud Platform **-** VMware vCloud Air **-** WaveMaker

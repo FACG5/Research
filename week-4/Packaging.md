@@ -70,9 +70,9 @@ var express = require('express');
 
 # npm install:
 
-## What is the difference between installing a package globally, installing it as a dependency, or installing it as a development dependency?
-## When would you use each? How would you do each in the command line?
-## Why is it normally a bad idea to install a package globally?
+#### What is the difference between installing a package globally, installing it as a dependency, or installing it as a development dependency?
+#### When would you use each? How would you do each in the command line?
+#### Why is it normally a bad idea to install a package globally?
 
 When using NPM, the first thing to do is an
 npm init,
@@ -106,10 +106,11 @@ when to use:
 **Why Shouldn’t I Install Dependencies Globally?**
 
 
-## Where does NPM install packages?##
+## Where does NPM install packages?
 
 **Global libraries**
-You can run npm **list -g** to see where global libraries are installed.
+
+You can run **npm list -g** to see where global libraries are installed.
 
 On Unix systems they are normally placed in /usr/local/lib/node or /usr/local/lib/node_modules when installed globally. If you set the NODE_PATH environment variable to this path, the modules can be found by node.
 
@@ -117,6 +118,7 @@ Windows XP - %USERPROFILE%\Application Data\npm\node_modules
 Windows 7, 8 and 10 - %AppData%\npm\node_modules
 
 **Non-global libraries**
+
 Non-global libraries are installed the node_modules sub folder in the folder you are currently in.
 
 You can run **npm list** to see the installed non-global libraries for your current location.
@@ -132,7 +134,7 @@ It can also take up a huge amount of space on something like Github as this fold
 ## How do you prevent Git from including these files in your repository?
 
 
-A .gitignore file is a way to tell Git to leave certain things alone.
+A **.gitignore** file is a way to tell Git to leave certain things alone.
 
 If you are creating a repository on Github then you can use the 'Add .gitignore file' dropdown to automatically generate a variety of .gitignore files for different kinds of projects. You'll want to choose 'Node' here.
 

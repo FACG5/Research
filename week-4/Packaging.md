@@ -106,7 +106,7 @@ when to use:
 **Why Shouldn’t I Install Dependencies Globally?**
 
 
-
+# Package files: 
 
 ## Where does NPM install packages?
 

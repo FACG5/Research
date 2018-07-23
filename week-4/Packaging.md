@@ -49,8 +49,8 @@ Problem #3: Teams’ Own Unique Perspectives
 
 # NPM:
 
-## What is a package manager?
-is a package manager for JavaScript, it has hundreds of thousands of useful pieces of code that you may want to integrate with your Node project.
+## What is npm ?
+is a node package manager for JavaScript, it has hundreds of thousands of useful pieces of code that you may want to integrate with your Node project.
 * you can install, share code
 * you can manage dependencies in your projects
 

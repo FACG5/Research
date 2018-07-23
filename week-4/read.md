@@ -1,12 +1,12 @@
-Client Side vs. Server Side
+# Client Side vs. Server Side
 
-Website scripts run in one of two places:
+## Website scripts run in one of two places:
 
  1. client side (front-end): The client of a website refers to the web browser that is viewing it.
 
  2. server side (back-end): The server of a website is, of course, the server that hosts it.
 
- Most web coding languages are designed to run on either the server side or the client side. This largely defines how they work. Here are some examples.
+ Most web coding languages are designed to run on either the server side or the client side. This largely defines how they   work. Here are some examples.
 
  In General: 
 
@@ -14,9 +14,9 @@ Website scripts run in one of two places:
 
  2.  Back-end scripting is good for anything that requires dynamic data to be loaded, such as a notice  that tells the user they’re logged in.
 
- hint: To write your own front-end and back-end scripts, you should learn web development.
+ ### hint: To write your own front-end and back-end scripts, you should learn web development.
 
-Front-end/ client-side
+## Front-end/ client-side
 
 The front-end, or the client-side, is everything involved with the browser and relates to what the user sees. It only uses HTML, CSS and JS.
 
@@ -26,7 +26,7 @@ Imagery
 Buttons
 Animations/ transitions
 
-Back-end/ server-side
+## Back-end/ server-side
 
 The backend is mostly worried about things like security, structure and content management.
 

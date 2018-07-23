@@ -30,7 +30,7 @@ module.exports.addX = addX;
 _
 ```
 ## Why can't you use them in the browser?
-### browsers don't support node.js libraries
+#### browsers don't support node.js libraries
 
 ## How might you modularise client-side code?
 by dividing the code
@@ -46,14 +46,14 @@ which makes it easier to understand
 
   ## Why should you use asyncronous forms of functions wherever possible in Node? 
 
-  ###  Processing your request asynchronously avoids the delay while the retrieval from the server takes place because your visitor can continue to interact with the web page; the requested information will be processed in the background, and the response will update the page as and when it arrives. 
+  ####  Processing your request asynchronously avoids the delay while the retrieval from the server takes place because your visitor can continue to interact with the web page; the requested information will be processed in the background, and the response will update the page as and when it arrives. 
 
 
 
 ## What are error-first callbacks, and why is it important to follow that pattern in your own code?
 
-### The “error-first” callback, also known as an “errorback”, “errback”, or “node-style callback”
-### The callbacks may not expect any data and the err is the only parameter that they take, and sometimes the functions expect more than one value on success
+#### The “error-first” callback, also known as an “errorback”, “errback”, or “node-style callback”
+#### The callbacks may not expect any data and the err is the only parameter that they take, and sometimes the functions expect more than one value on success
 ```
 request(url, (err, res, data) => {
   if (err) {
@@ -65,12 +65,12 @@ request(url, (err, res, data) => {
 ```
 
  ## Why should you avoid using throw in callbacks?
- ### exceptions are only a synchronous mechanism, which is logical: in an asynchronous environment, the exception could be thrown when the handler block is already out of scope and thus meaningless.
- ### Asynchronous exception is uncatchable because the intended catch block is not present when the asynchronous code is executed. Instead, the exception will propagate all the way and terminate the program.
+ #### exceptions are only a synchronous mechanism, which is logical: in an asynchronous environment, the exception could be thrown when the handler block is already out of scope and thus meaningless.
+ #### Asynchronous exception is uncatchable because the intended catch block is not present when the asynchronous code is executed. Instead, the exception will propagate all the way and terminate the program.
 
 ## When might you use the syncronous form of a function instead?
 
- ### When the functions don't require a time to execute, and it don't have a fumctions like setTimeout() or anything require a time more than the others.
+ #### When the functions don't require a time to execute, and it don't have a fumctions like setTimeout() or anything require a time more than the others.
 
 ------
 
@@ -78,11 +78,11 @@ request(url, (err, res, data) => {
 
 ## What kind of tasks does the fs module enable you to perform that you wouldn't be able to in the browser?
 
-### The File System module provides a way of working with the computer's file system.
+#### The File System module provides a way of working with the computer's file system.
 
 
 
-### To include the File System module, use the require() method:
+#### To include the File System module, use the require() method:
 
 
 
@@ -138,19 +138,22 @@ var jsonString = fs.readFileSync(jsonPath, 'utf8');
 
 ## How does the path module help, and why should you use it instead of manually writing file paths as strings?
 
-### When multiple, sequential path segment separation characters are found (e.g. / on POSIX and either \ or / on Windows), they are replaced by a single instance of the platform specific path segment separator (/ on POSIX and \ on Windows). Trailing separators are preserved.
+#### When multiple, sequential path segment separation characters are found (e.g. / on POSIX and either \ or / on Windows), they are replaced by a single instance of the platform specific path segment separator (/ on POSIX and \ on Windows). Trailing separators are preserved.
 
 
 --------
 # Working with URLs (the url and querystring modules)
 
 ##  What is a urlObject and how is it structured?
-### A URL string is a structured string containing multiple meaningful components. When parsed, a URL object is returned containing properties for each of these components.
+#### A URL string is a structured string containing multiple meaningful components. When parsed, a URL object is returned containing properties for each of these components.
  ![url](https://files.gitter.im/OnsNader/Tagm/Screenshot-from-2018-07-23-14-51-17.png)
 
 
 ## Why is it important to be able to turn JavaScript objects into querystrings and back again?
-### query string turns the string input into object. So it is understandable and readable. We change the object into a string so the server understands it and we can send a request and get a response.
+#### query string turns the string input into object. So it is understandable and readable. We change the object into a string so the server understands it and we can send a request and get a response.
 
 ## Why is it a bad idea to build a query string manually from other strings (think about URL encoding and escape characters)?
-### if we didn't parse the query string into an object, the url would contain many symbols and characters each with a special meaning. So, if i on my own manually wrote the string form of the object i can misuse or forget a character I would send a different request than required and get a different response than wanted.
+#### if we didn't parse the query string into an object, the url would contain many symbols and characters each with a special meaning. So, if i on my own manually wrote the string form of the object i can misuse or forget a character I would send a different request than required and get a different response than wanted.
+------------
+## By : 
+#### Ibrahem , Mohannad , Ons , Asala 

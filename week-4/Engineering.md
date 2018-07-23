@@ -153,3 +153,4 @@ var jsonString = fs.readFileSync(jsonPath, 'utf8');
 ### query string turns the string input into object. So it is understandable and readable. We change the object into a string so the server understands it and we can send a request and get a response.
 
 ## Why is it a bad idea to build a query string manually from other strings (think about URL encoding and escape characters)?
+### if we didn't parse the query string into an object, the url would contain many symbols and characters each with a special meaning. So, if i on my own manually wrote the string form of the object i can misuse or forget a character I would send a different request than required and get a different response than wanted.

@@ -1,4 +1,4 @@
-# Client Side vs. Server Side
+# Architecture
 
 ## Website scripts run in one of two places:
 

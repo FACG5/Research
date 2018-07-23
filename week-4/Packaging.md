@@ -57,7 +57,7 @@ is a package manager for JavaScript, it has hundreds of thousands of useful piec
 ## What is package.json?
 file holds various metadata about the project. used to give information to npm that allows it to identify the project as well as handle the project's dependencies
 
-##what is npm init?
+## what is npm init?
 
 is the first command you need to know to create an node project it will add a file called package.json
 
@@ -104,6 +104,8 @@ when to use:
 * If you’re installing something that you want to use in your shell, on the command line or something, install it globally,
 * If you’re installing something that you want to use in your program, using require('whatever'), then install it locally, at the root of your project.
 **Why Shouldn’t I Install Dependencies Globally?**
+
+
 
 
 ## Where does NPM install packages?

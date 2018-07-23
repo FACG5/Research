@@ -81,3 +81,26 @@ env2 is our solution.
 env2 allows you to store your environment variables in an env.json or a .env file which gets loaded when your app starts.
 
 All the entries in the env file are exported as environment variables available as keys in the process.env object.
+
+#### In the root dir 
+
+```shell
+toch config.env
+```
+**example**
+
+```javascript
+export MY_KEY = '4638dc94ad7887e67dc768fd6a6c909c'
+````
+#### Install ```env2``` from ```npm```
+```shell
+npm install env2 --save
+```
+#### Use in your Code
+Then in your script/module:
+
+const env = require('env2')('./path-to-your/.env');
+then use  
+```use process.env.MY_KEY```
+then add thiskey in ```heroku.com``` 
+

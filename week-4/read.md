@@ -112,8 +112,8 @@ The Node.js developers community is a very active and vibrant group of developer
 * Simultaneous Request Handling.
 Node.js provides the non-blocking IO system that lets you process numerous requests concurrently. The system makes simultaneous request handling much better than in other languages like Ruby or Python. Incoming requests are queued up and executed sequentially in a fast manner. In effect your app will take up much less system RAM, achieve high scalability levels and in a result will perform faster.
 
-* Cons of Using Node.js for Your Back-end:
--Unstable API
+##Cons of Using Node.js for Your Back-end:
+*Unstable API
 One of the biggest disadvantages of Node.js is that it lacks consistency. Node.js’ API changes frequently, and the changes are often backward-incompatible. When this happens, programmers are forced to make changes to the existing code base to make it compatible with the latest version of the Node.js API.
 
 * More Development Time

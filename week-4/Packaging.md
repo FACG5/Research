@@ -40,7 +40,9 @@ Take a look at any non-trivial web-app built in the last couple of years and you
 __Three Core Problems of Dependency Management__
 
 Problem #1: Lack of End-to-End Visibility
+
 Problem #2: Bad Solutions for Lack of Visibility
+
 Problem #3: Teams’ Own Unique Perspectives
 
 [source](https://medium.freecodecamp.org/code-dependencies-are-the-devil-35ed28b556d)

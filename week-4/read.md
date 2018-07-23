@@ -81,3 +81,7 @@ In the Client Side Validation you can provide a better user experience by respon
 For example, if the user enters an invalid email format, you can show an error message immediately before the user moves to the next field.
 
 Mostly the Client Side Validation depends on the JavaScript Language, so if users turn JavaScript off, it can easily bypass and submit dangerous input to the server. So the Client Side Validation can not protect your application from malicious attacks on your server resources and databases.
+
+# Resources 
+1. https://www.codeconquest.com/website/client-side-vs-server-side/
+2. https://www.quora.com/How-do-front-end-and-back-end-technologies-work-together

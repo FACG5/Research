@@ -6,15 +6,14 @@
 
  #  Modules 
   ## Why is it a good idea to modularise your code ?
- * #### The more important benefit of modularizing is that Modularized code is easy to understand
-
- * #### By modularizing code, you can replace parts of it easily. However, that’s not the end of it.
-
- ## What are require and module.exports?
-
+  
  *  #### The most important benefit of modularizing is that Modularized code is easy to understand.
 
  * #### By modularizing code, you can make the code reusable and you can replace parts of it easily witout affecting other parts of the code.
+ 
+ ## What are require and module.exports?
+
+require: it's used to load modules. which is why its return value is typically assigned to a variable:
 ```
 var misc = require('./misc');
 ```

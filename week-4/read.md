@@ -6,7 +6,7 @@
 
  2. server side (back-end): The server of a website is, of course, the server that hosts it.
 
- Most web coding languages are designed to run on either the server side or the client side. This largely defines how they   work. Here are some examples.
+ Most web coding languages are designed to run on either the server side or the client side. This largely defines how they   work. 
 
  In General: 
 

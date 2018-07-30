@@ -74,7 +74,7 @@ fs.readfile: Reads the file specified (take space for the file in memory)
 fs.createReadStream: this will read the file as chunks
 ~~~~
 var fs = require('fs');
-var rstream = fs.createReadStream('existingFile')
+var rstream = fs.createReadStream('./data.txt')
 
 rstream.on('open', function () {
     rstream.pipe(process.stdout);

@@ -31,6 +31,9 @@ Typically, the movement of data is usually with the intention to process it, or 
 On the other hand, if the process is consuming the data faster than it arrives, the few data that arrive earlier need to wait for a certain amount of data to arrive before being sent out for processing.
 
 
+That **“waiting area”** is the buffer! It is a small physical location in your computer, usually in the RAM, where data are temporally gathered, wait, and are eventually sent out for processing during streaming.
+
+
 ## Interacting with a Buffer:
 
 

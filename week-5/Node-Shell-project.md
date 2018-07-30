@@ -131,6 +131,10 @@ rl.on("close", () => {
 
 ```
 
+Inline-style: 
+![alt text](http://www4.0zz0.com/2018/07/30/15/629911310.png)
+
+
 ---
 ### By : 
 * Asmaa

@@ -53,6 +53,6 @@ request(options)
   .catch(function (err) {
 ```
 
-now Lubna will explain her example on request modules
+**now Lubna will explain her example on request modules
 then
-Ali will explain his example on superagent module
+Ali will explain his example on superagent module**

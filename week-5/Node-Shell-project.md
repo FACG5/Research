@@ -45,9 +45,13 @@ Make your own output formatter!
       ```javascript
       const chalk = require('chalk');
       ```
+      <p align="center">
+        <img  src="http://www3.0zz0.com/2018/07/30/16/276338083.png">
+    </p>
+
       example : 
       ```javascript
-      consol.log(chalk.blue('Hello') + ' World' + chalk.red('!'));
+      console.log(chalk.blue('Hello') + ' World' + chalk.red('!'));
       ```
     2. Now we want read the result of test file
           ```javascript
@@ -132,6 +136,8 @@ rl.on("close", () => {
 ```
 
 ---
+### Result
+
 <p align="center">
     <img  src="http://www4.0zz0.com/2018/07/30/15/629911310.png">
 </p>

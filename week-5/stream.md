@@ -66,7 +66,7 @@ buf1.toString() // 'Buffer rea'
 
 
 
-## in fs module 
+## How to use streams
 
 fs.readfile: Reads the file specified (take space for the file in memory)
 

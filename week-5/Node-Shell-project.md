@@ -133,7 +133,7 @@ rl.on("close", () => {
 
 ---
 
-(http://www4.0zz0.com/2018/07/30/15/629911310.png)
+<img width="460" height="300" src="http://www4.0zz0.com/2018/07/30/15/629911310.png">
 
 ---
 ### By : 

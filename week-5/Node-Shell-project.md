@@ -34,5 +34,13 @@ Make your own output formatter!
     ~~~
 
 5. Now we bulid the output-formatter file
- 
+   
+   * we use chalk module to change the color in test
+   ```javascript
+   const chalk = require('chalk');
+   ```
+   example : 
+      ```javascript
+      consol.log(chalk.blue('Hello') + ' World' + chalk.red('!'));
+      ```
     

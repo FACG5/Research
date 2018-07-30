@@ -25,5 +25,5 @@ When done, commit the changes to the repository.
 
 
 ### The popular tool for CI is Travis :
-![alt text]
+
 (https://travis-ci.com) :+1:

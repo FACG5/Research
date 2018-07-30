@@ -45,14 +45,14 @@ Make your own output formatter!
       ```javascript
       const chalk = require('chalk');
       ```
-      <p align="center">
-        <img  src="http://www3.0zz0.com/2018/07/30/16/276338083.png">
-    </p>
-
       example : 
       ```javascript
       console.log(chalk.blue('Hello') + ' World' + chalk.red('!'));
       ```
+    <p align="center">
+        <img  src="http://www3.0zz0.com/2018/07/30/16/276338083.png">
+    </p>
+    
     2. Now we want read the result of test file
           ```javascript
             const readline = require("readline");

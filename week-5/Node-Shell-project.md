@@ -51,11 +51,11 @@ Make your own output formatter!
       ```
     2. Now we want read the result of test file
       ```javascript
-      const readline = require("readline");
-      let rl=readline.createInterface(process.stdin,{});
-      rl.on('line', (data) => {
-         console.log(data);
-      }   
+        const readline = require("readline");
+        let rl=readline.createInterface(process.stdin,{});
+        rl.on('line', (data) => {
+            console.log(data);
+        });
       ```
       
     

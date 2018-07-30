@@ -50,15 +50,26 @@ Make your own output formatter!
       consol.log(chalk.blue('Hello') + ' World' + chalk.red('!'));
       ```
     2. Now we want read the result of test file
-      ```javascript
-        const readline = require("readline");
-        let rl=readline.createInterface(process.stdin,{});
-        rl.on('line', (data) => {
-            console.log(data);
-        });
-      ```
+          ```javascript
+            const readline = require("readline");
+            let rl=readline.createInterface(process.stdin,{});
+            rl.on('line', (data) => {
+                console.log(data);
+            });
+          ```
     3. t is time for your creativity to change your test output
     
-    --- 
+--- 
     
+## Example to our work **`output-formatter.js`**
+
+```javascript
+
+```
+
+---
+### By : 
+* Asmaa
+* Marwan
+* Kanna'n
     

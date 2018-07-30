@@ -64,6 +64,55 @@ Make your own output formatter!
 ## Example to our work **`output-formatter.js`**
 
 ```javascript
+#!/usr/bin/env node
+const chalk = require('chalk');
+const readline = require("readline");
+let rl = readline.createInterface(process.stdin, {});
+let numOfPass = 0;
+let numOfFill = 0;
+let Errors = [];
+rl.on('line', function (data) {
+    console.log()
+    if (data.includes('not ok')) {
+        numOfFill++;
+
+    } else if (data.includes('ok')) {
+        numOfPass++;
+    } else {
+        if (data.startsWith("  ") || data.startsWith('    ') || data.startsWith("      ") || data.startsWith("          ")) {
+            Errors.push(data + "\n");
+
+        }
+    }
+});
+rl.on('close', () => {
+    if (numOfFill === 0) {
+        numOfPass--;
+        console.log(chalk.green(" It's Okay There Is No ERROR ... "));
+    }
+
+
+    let num = 1;
+    Errors.forEach((item) => {
+        if (item.includes('---')) {
+            console.log("=================  " + chalk.red("ERROR" + num), ("   =================\n\n\n"));
+            num++;
+
+        }
+
+        console.log(chalk.yellow(item));
+
+    })
+    console.log("\n\n\n");
+
+
+    console.log(chalk.yellow("The Number Of" + chalk.blue("  Passes  ") + "is --> " + chalk.blue(numOfPass)));
+
+    console.log(chalk.yellow("The Number Of" + chalk.red("  fills  ") + "is --> " + chalk.red(numOfFill)));
+
+    console.log("\n\n\n");
+
+});
 
 ```
 

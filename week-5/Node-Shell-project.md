@@ -12,30 +12,36 @@ Make your own output formatter!
 
 1. **Clone** [this](https://github.com/foundersandcoders/Node-Shell-Workshop) repo and go into the **`project`** folder
 2. **In terminal**
-    * You'll need to create a **`package.json`** and install **tape**
+    1. You'll need to create a **`package.json`** and install **tape**
     
-      ~~~
-      npm init
-      ~~~
-      ~~~
-      npm i tape -D 
-      ~~~
+         ~~~
+         npm init
+         ~~~
+         ~~~
+         npm i tape -D 
+         ~~~
 
-3. Create the file output-formatter.js
+   2. Create the file output-formatter.js
 
-    ~~~
-    touch output-formatter.js
-    ~~~
+       ~~~
+       touch output-formatter.js
+       ~~~
   
-4. Format should be implemented like so  in **`package.json`** file
+   3. Format should be implemented like so  in **`package.json`** file
 
-    ~~~
-    node test.js | node output-formatter.js
-    ~~~
-
-5. Now we bulid the output-formatter file
+       ~~~
+       node test.js | node output-formatter.js
+       ~~~
+    
+   4. Run the code   
    
-   * we use chalk module to change the color in test
+      ~~~
+      npm test
+      ~~~
+
+3. Now we bulid the **`output-formatter.js`** file
+   
+   1. We use chalk module to change the color in test
       ```javascript
       const chalk = require('chalk');
       ```
@@ -43,4 +49,13 @@ Make your own output formatter!
       ```javascript
       consol.log(chalk.blue('Hello') + ' World' + chalk.red('!'));
       ```
+    2. Now we want read the result of test file
+      ```javascript
+      const readline = require("readline");
+      let rl=readline.createInterface(process.stdin,{});
+      rl.on('line', (data) => {
+         console.log(data);
+      }   
+      ```
+      
     

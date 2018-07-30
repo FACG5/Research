@@ -39,8 +39,9 @@ Make your own output formatter!
    ```javascript
    const chalk = require('chalk');
    ```
-   example : 
-      ```javascript
-      consol.log(chalk.blue('Hello') + ' World' + chalk.red('!'));
-      ```
+      example : 
+      
+         ```javascript
+         consol.log(chalk.blue('Hello') + ' World' + chalk.red('!'));
+         ```
     

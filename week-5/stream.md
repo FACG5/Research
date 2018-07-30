@@ -5,7 +5,7 @@ Stream in Node.js simply means a sequence of data being moved from one point to 
 Basically, this big data is broken down and sent in chunks. So from the original definition of a buffer (“streams of binary data… in the context of… file system”) this simply means binary data being moved in the file system.**For example**, moving the texts stored in file1.txt to file2.txt.
 
 ## Stream Benefits:
-* bstraction for continuous chunking of data.
+* abstraction for continuous chunking of data.
 * No need to wait for the entire resource to load.
 
 

@@ -11,7 +11,8 @@ Basically, this big data is broken down and sent in chunks. So from the original
 * If you are absolutely sure that your all of your data fits in a single chunk, there is no immediate benefit to using streams.
 * you can configure the chunk size
 * You can pipe a single readable stream into multiple writable streams which would be a pain to do using only asynchronous callback
-* 
+* low memory footprint
+* buffers allow you to work around the v8 heap memory limit
 
 
 

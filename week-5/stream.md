@@ -63,3 +63,19 @@ buf1.toString() // 'Buffer rea'
 //oops, because buf1 is created to contain only 10 bytes, it couldn't accommodate the rest of the characters
 // Compare two buffers
 ~~~~
+
+
+
+fs module have two module
+
+fs.readfile: Reads the file specified (take space for the file in memory)
+
+fs.createReadStream: this will read the file as chunks
+~~~~
+var fs = require('fs');
+var rstream = fs.createReadStream('existingFile')
+
+rstream.on('open', function () {
+    rstream.pipe(process.stdout);
+}
+~~~~

@@ -66,7 +66,7 @@ buf1.toString() // 'Buffer rea'
 
 
 
-fs module have two module
+## in fs module 
 
 fs.readfile: Reads the file specified (take space for the file in memory)
 

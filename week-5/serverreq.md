@@ -2,8 +2,8 @@
 * Connecting to external APIs is easy in Node. You can just require the core HTTP module and start sending requests.
 
 * Of course, there are much better ways to call an external endpoint. On NPM you can find multiple modules that can make this process easier for you. Fo​r example, the two most popular ones are the:
-### request
-### superagent
+### 1. request
+### 2. superagent
 Both of these modules have an error-first callback interface
 
 ```

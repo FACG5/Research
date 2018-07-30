@@ -64,6 +64,7 @@ buf1.toString() // 'Buffer rea'
 // Compare two buffers
 ~~~~
 
+![alt text](https://cdn-images-1.medium.com/max/1040/1*lhOvZiDrVbzF8_l8QX3ACw.png)
 
 
 ## How to use streams

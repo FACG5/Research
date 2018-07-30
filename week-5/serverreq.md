@@ -3,7 +3,9 @@
 
 * Of course, there are much better ways to call an external endpoint. On NPM you can find multiple modules that can make this process easier for you. Fo​r example, the two most popular ones are the:
 ### 1. request
-### 2. superagent
+### 1. superagent
+### 1. Axios
+### 1. got
 Both of these modules have an error-first callback interface
 
 ```

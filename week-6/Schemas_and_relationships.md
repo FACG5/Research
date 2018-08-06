@@ -11,8 +11,8 @@ It can be represented in a visual design which shows the database objects and th
 ### What are primary keys and why do we need them?
 
 A **primary key** is a field in a table which uniquely identifies each row/record in a database table, and provides a way for developers to reference a particular row within a database table.
-Primary keys must contain unique values.
-A primary key column cannot have NULL values.
+* Primary keys must contain unique values.
+* A primary key column cannot have NULL values.
 
 ```
 CREATE TABLE Persons (

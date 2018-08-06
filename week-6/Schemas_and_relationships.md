@@ -8,8 +8,8 @@ It contains objects like tables, columns, data types, views, stored procedures, 
 It can be represented in a visual design which shows the database objects and their relationship with each other in a schema diagram
 
 why do we use a schema:
-since a schema is the structure of the database users would understand how the database is organized
-and when writing code that is based on someone else's database a schema is needed to able to understand how this database is structured
+since a schema is the structure of the database users would understand how the database is organized and when writing code that is based on someone else's database a schema is needed to able to understand how this database is structured.
+
 ---
 
 ### What are primary keys and why do we need them?

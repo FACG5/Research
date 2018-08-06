@@ -39,11 +39,13 @@ Age int
 
 ### Create a visual representation of a mock schema for a database about Founders & Coders, using as many different kinds of relationship as you can. Explain the logic behind it.
 
+<p align="center">
 <img src="https://raw.githubusercontent.com/FAC10/research/master/week-6/schema-example-oracle.png">
+</p>
 
 ---
 
 ### By :
- > * Mrwan  
+ > * Marwan  
  > * Asmaa
  > * Ons

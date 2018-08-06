@@ -4,6 +4,7 @@
 
 A schema is the organisation and structure of a database
 It contains objects like tables, columns, data types, views, stored procedures, relationships, primary keys, foreign keys, etc.
+
 It can be represented in a visual design which shows the database objects and their relationship with each other in a schema diagram
 
 ---

@@ -24,6 +24,7 @@ HTTPS takes the well-known and understood HTTP protocol and simply layers a SSL/
 ![](https://cascadingmedia.com/assets/images/insites/2015/01/https-everywhere/https-active-attacker-ed110ae9.png)
 
 ### What are TLS/SSL certificates?
+![](https://www.ssl2buy.com/wiki/wp-content/uploads/2017/02/what-is-https.png)
 
  ***SSL*** *(Secure Sockets Layer)* - it's the technology for keeping an internet connection secure and safeguarding any sensitive data.
 

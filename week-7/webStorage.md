@@ -33,9 +33,9 @@ In terms of capabilities, cookies, sessionStorage, and localStorage only allow y
 
 # Demo for local storage and session storage
 To set values in local storage:
-
+```
 localStorage.setItem('key1', 'othman');  
-
+```
 To get values in local storage:
 ```
 localStorage.getItem('key1');

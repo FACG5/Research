@@ -44,12 +44,12 @@ localStorage.getItem('key1');
 
 To set values in session storage:
 ```
-sessionStorage.setItem('katia', 'really smart');
+sessionStorage.setItem('key1', 'othman20');
 ```
 To get values in session storage:
 ```
-sessionStorage.getItem('katia');
-// it should show you the key value 'really smart';
+sessionStorage.getItem('key1');
+// it should show you the key value 'othman20';
 ```
 # RESOURCES
 

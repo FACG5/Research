@@ -55,4 +55,4 @@ You should always protect all of your websites with HTTPS!
 **This means** you can be sure that you are sending information to the right server and not to an imposter trying to steal your information.
 
 
->> BY Kan'an Lubna and Asala  :smile:s
+>> BY Kan'an Lubna and Asala  :smirk:

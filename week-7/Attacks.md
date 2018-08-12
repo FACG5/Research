@@ -3,7 +3,7 @@
 
 ## What are the following types of attack and How can you defend against ?
 
-#### Man In The Middle (MITM)
+### Man In The Middle (MITM)
 
 <p align="center">
 <img src="http://1kam1.com/wp-content/uploads/2017/03/man-in-the-middle-mitm.jpg">
@@ -44,11 +44,11 @@ If an intruder manages to get into a strategic position, they can steal informat
 
 ---
 
-#### Cross Site Scripting (XSS)
+### Cross Site Scripting (XSS)
 
 ---
 
-#### Cross Site Request Forgery (CSRF)
+### Cross Site Request Forgery (CSRF)
 
 * Cross-Site Request Forgery (CSRF) is an attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated. CSRF attacks specifically target state-changing requests, not theft of data, since the attacker has no way to see the response to the forged request. With a little help of social engineering (such as sending a link via email or chat), an attacker may trick the users of a web application into executing actions of the attacker's choosing. If the victim is a normal user, a successful CSRF attack can force the user to perform state changing requests like transferring funds, changing their email address, and so forth. If the victim is an administrative account, CSRF can compromise the entire web application.
 

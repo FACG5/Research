@@ -25,7 +25,7 @@ In terms of capabilities, cookies, sessionStorage, and localStorage only allow y
 
 |                    | cookies             | localStorage   |sessionStorage   |
 |---                 |---                  |---             |---              |
-| capacity           | 4kB                 |  5MB*          | 5MB*            |
+| capacity           | 4kB                 |  10MB*          | 5MB*            |
 | accessibility      | any window          | any window     | same tab           |
 | expires            | manually set        | never          | on tab close                |
 | storage location   | browser and server  | browser        | browser |

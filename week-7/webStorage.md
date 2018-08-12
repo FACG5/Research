@@ -58,3 +58,5 @@ sessionStorage.getItem('katia');
 [what is the difference between localstorage sessionstorage session and cookies](https://stackoverflow.com/questions/19867599/what-is-the-difference-between-localstorage-sessionstorage-session-and-cookies)
 
 [how to use local storage with javascript](https://www.taniarascia.com/how-to-use-local-storage-with-javascript/)
+
+[cookies vs localStorage vs sessionStorage](https://www.youtube.com/watch?v=AwicscsvGLg)

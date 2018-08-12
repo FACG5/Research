@@ -1,9 +1,6 @@
 # HTTP vs HTTPS
-> HTTP : HyperText Transfer Protocol.
 
-> HTTPs :Hyper Text Transfer Protocol Secure.
 
-![alt text](https://www.instantssl.com/images/http-vs-https.png)
 
 ### How does HTTPS work?
 HTTPS takes the well-known and understood HTTP protocol and simply layers a SSL/TLS **encryption layer on top of it.**
@@ -12,6 +9,8 @@ HTTPS takes the well-known and understood HTTP protocol and simply layers a SSL/
 + It verifying that you are talking directly to the server that you think you are talking to.
 
 + Ensuring that only the server can read what you send it and only you can read what it sends back.
+
+![alt text](https://www.instantssl.com/images/http-vs-https.png)
 
 **Servers and clients still speak exactly the same HTTP to each other,** but over a secure SSL encrypted connection.
 

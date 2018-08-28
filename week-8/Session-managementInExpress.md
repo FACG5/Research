@@ -2,7 +2,7 @@
 
 ## What are sessions?
 
-A session is a place to store data that you want access to across requests. Each user that visits your website has a unique session.  You can use sessions to store and access user data as they browse your application.
+A session can be defined as a server-side storage of information that is desired to persist throughout the user's interaction with the web site or web application.
 
 ---
 

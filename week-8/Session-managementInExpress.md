@@ -11,12 +11,14 @@ A session is a place to store data that you want access to across requests. Each
 There are two broad ways of implementing sessions in Express – using cookies and using a session store at the backend. Both of them add a new object in the request object named session, which contains the session variables.
 
 1. Express-session:
+A session store is a provision for storing session data in the backend. Sessions based on session stores can store a large amount of data that is well hidden from the user.
 ~~~
 npm install express-session
 ~~~
 > Note Session data is not saved in the cookie itself, just the session ID. Session data is stored server-side.
 
-2. Node-session:
+2. Cookie-session:
+Using the fact that cookies can store data in the users browser, a sessions API can be implemented using cookies. Express comes with a built-in middleware called cookieSession, which does just that.
 ~~~
 npm install cookie-session
 ~~~

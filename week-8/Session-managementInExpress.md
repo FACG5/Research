@@ -13,6 +13,7 @@ There are two broad ways of implementing sessions in Express – using cookies a
 1. **Express-session:**
 
 A session store is a provision for storing session data in the backend. Sessions based on session stores can store a large amount of data that is well hidden from the user.
+**middleware** requires a server-side store. An obvious limitation of the default in-memory based session-store is that it doesn't work when there are multiple instances of a server; an alternative shared storage (eg, a database) will be needed in such cases, which makes it relatively complex.
 ~~~
 npm install express-session
 ~~~
@@ -21,6 +22,7 @@ npm install express-session
 2. **Cookie-session:**
 
 Using the fact that cookies can store data in the users browser, a sessions API can be implemented using cookies. Express comes with a built-in middleware called cookieSession, which does just that.
+**middleware**  is simpler in that it doesn't require any additional server-side store i.e the server remains entirely stateless.
 ~~~
 npm install cookie-session
 ~~~

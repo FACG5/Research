@@ -154,12 +154,6 @@ Use third-party middleware to add functionality to Express apps.
 
 Install the Node.js module for the required functionality, then load it in your app at the application level or at the router level.
 
-The following example illustrates installing and loading the cookie-parsing middleware function cookie-parser.
-```
-$ npm install cookie-parser
-
-```
-
 * body-parser
 * compression
 * cookie-session
@@ -168,5 +162,32 @@ $ npm install cookie-parser
 * session
 * morgan
 
+###### Cookie-parser
+Parse Cookie header and populate req.cookies with an object keyed by the cookie names. Optionally you may enable signed cookie support by passing a secret string, which assigns req.secret so it may be used by other middleware.
+``` 
+$ npm install cookie-parser
+``` 
+### cookieParser(secret, options)
+### cookieParser.JSONCookie(str)
+### cookieParser.JSONCookies(cookies)
+### cookieParser.signedCookie(str, secret)
+### cookieParser.signedCookies(cookies, secret)
+
+##### Example
+```js
+var express      = require('express')
+var cookieParser = require('cookie-parser')
+ 
+var app = express()
+app.use(cookieParser())
+ 
+app.get('/', function(req, res) {
+  console.log('Cookies: ', req.cookies)
+})
+ 
+app.listen(8080)
+```
+
 #### sources
 [Using middleware](https://expressjs.com/en/guide/using-middleware.html)
+[cookie-parser npm](https://www.npmjs.com/package/cookie-parser)

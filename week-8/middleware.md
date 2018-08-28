@@ -167,11 +167,11 @@ Parse Cookie header and populate req.cookies with an object keyed by the cookie 
 ``` 
 $ npm install cookie-parser
 ``` 
-### cookieParser(secret, options)
-### cookieParser.JSONCookie(str)
-### cookieParser.JSONCookies(cookies)
-### cookieParser.signedCookie(str, secret)
-### cookieParser.signedCookies(cookies, secret)
+#### cookieParser(secret, options)
+#### cookieParser.JSONCookie(str)
+#### cookieParser.JSONCookies(cookies)
+#### cookieParser.signedCookie(str, secret)
+#### cookieParser.signedCookies(cookies, secret)
 
 ##### Example
 ```js

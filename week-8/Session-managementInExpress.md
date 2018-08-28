@@ -8,16 +8,17 @@ A session is a place to store data that you want access to across requests. Each
 
 ## What are the different ways of managing sessions in express?
 
-We have many modules that we can in order to create new session:
+There are two broad ways of implementing sessions in Express – using cookies and using a session store at the backend. Both of them add a new object in the request object named session, which contains the session variables.
 
 1. Express-session:
 ~~~
 npm install express-session
 ~~~
+> Note Session data is not saved in the cookie itself, just the session ID. Session data is stored server-side.
 
 2. Node-session:
 ~~~
-npm install node-session
+npm install cookie-session
 ~~~
 
 ---
